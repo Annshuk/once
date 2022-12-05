@@ -1,0 +1,875 @@
+ [
+  {
+      "_Text": "XYZ Energy",
+      "Group": {
+          "Item": [
+              {
+                  "_Text": "Organizational Structure",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Security&gotourl=SecurityLevel.aspx"
+              },
+              {
+                  "_Text": "Departments",
+                  "_Href": "../SecurityModel/Department.aspx?GlobalLevelPage=1"
+              },
+              {
+                  "_Text": "Area",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "@ExpandDirection": "Right",
+                      "Item": [
+                          {
+                              "_Text": "Maintenance",
+                              "_Href": "../Area/Maintenance.aspx"
+                          },
+                          {
+                              "_Text": "DataHub",
+                              "_Href": "../DataHub/DataHub.aspx?DHN=Area"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Equipment",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "@ExpandDirection": "Right",
+                      "Item": [
+                          {
+                              "_Text": "Maintenance",
+                              "_Href": "../Equipment/Maintenance.aspx"
+                          },
+                          {
+                              "_Text": "DataHub",
+                              "_Href": "../DataHub/DataHub.aspx?DHN=Equipment"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Vehicle",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "@ExpandDirection": "Right",
+                      "Item": [
+                          {
+                              "_Text": "Maintenance",
+                              "_Href": "../Vehicle/Maintenance.aspx"
+                          },
+                          {
+                              "_Text": "DataHub",
+                              "_Href": "../DataHub/DataHub.aspx?DHN=Vehicle"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Groups",
+                  "_Href": "../SecurityModel/Groups.aspx?GlobalLevelPage=1"
+              },
+              {
+                  "_Text": "Custom Branding",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "@ExpandDirection": "Right",
+                      "Item": [
+                          {
+                              "_Text": "Login",
+                              "_Href": "../CustomBranding/BrandingAdmin.aspx?SectionToDispaly=login"
+                          },
+                          {
+                              "_Text": "Header",
+                              "_Href": "../CustomBranding/BrandingAdmin.aspx?SectionToDispaly=header"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Custom Catalog - Add Training, Location, Licenses",
+                  "_Href": "../CustomCatalogs/CutsomCatalog.aspx"
+              },
+              {
+                  "_Text": "Single Sign-on Configuration",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "@ExpandDirection": "Right",
+                      "Item": {
+                          "_Text": "Service Provider initiated Configuration",
+                          "_Href": "../SSO/ServiceProviderInitiatedConfiguration.aspx"
+                      }
+                  }
+              },
+              {
+                  "_Text": "Organizational Chart",
+                  "@Enabled": "False"
+              },
+              {
+                  "_Text": "Custom Snapins",
+                  "@Enabled": "False"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Registrar",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "User",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Users&gotourl=../Users/Users.aspx"
+              },
+              {
+                  "_Text": "Gradebook Entry",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Gradebook&gotourl=../AddRecords/AddRecords.aspx"
+              },
+              {
+                  "_Text": "Gradebook History",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Gradebook History&gotourl=../AddRecords/GradeBookHistory.aspx"
+              },
+              {
+                  "_Text": "Unlock Course1",
+                  "_Href": "../Reports/NonTemplateBased/UnlockUser.aspx?CalledFrom=admin"
+              },
+              {
+                  "_Text": "Unlock Course2",
+                  "_Href": "../Reports/NonTemplateBased/UnlockCourse_AuthoringToolOnly.aspx?WhichCatalog=Registrar"
+              },
+              {
+                  "_Text": "Unlock User Login",
+                  "_Href": "../Reports/NonTemplateBased/UnlockLoginAccount.aspx?CalledFrom=admin"
+              },
+              {
+                  "_Text": "Reactivate User",
+                  "_Href": "../Reports/NonTemplateBased/ReactiveUser.aspx?CalledFrom=admin"
+              },
+              {
+                  "_Text": "Set Goal(s)",
+                  "_Href": "../CustomCatalogs/CustomGoals.aspx"
+              },
+              {
+                  "_Text": "InKind New Hire",
+                  "_Href": "../Users/InKind_Add.aspx?CalledFrom=admin"
+              },
+              {
+                  "_Text": "InKind Move User",
+                  "_Href": "../Users/InKind_Move.aspx?CalledFrom=admin"
+              },
+              {
+                  "_Text": "Task - Upload Document Verification",
+                  "_Href": "../AddRecords/TaskUploadDocumentVerification.aspx"
+              },
+              {
+                  "_Text": "User Datahub",
+                  "_Href": "../DataHub/DataHub.aspx?DHN=Users"
+              },
+              {
+                  "_Text": "How To Procedures",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Add User via Registrar",
+                              "_Href": "../Help/Registrar/How-To-Task_Add User via Registrar.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Add Curriculum via Registrar",
+                              "_Href": "../Help/Registrar/How-To-Task_Add Curriculum to a User via Registrar Menu.pdf",
+                              "@target": "blank_"
+                          }
+                      ]
+                  }
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "EHS Suite",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Audit & Inspection",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Manage Audit & Inspection",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Safety&gotourl=../AuditAndInspection/AuditAndInspectionChecklist.aspx?Suite=EHS"
+                          },
+                          {
+                              "_Text": "Manage Task",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option= ManageInspection&gotourl=../AuditAndInspection/ManageInspection.aspx?Suite=EHS"
+                          },
+                          {
+                              "_Text": "Reports",
+                              "_Href": "../Reports/AuditAndInspectionReport/AuditAndInspectionReport.aspx?Suite=EHS"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Incident Management",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Custom Incident Forms",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=IncidentManagement&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Incident Management"
+                          },
+                          {
+                              "_Text": "Hours for OSHA Reporting",
+                              "_Href": "../SecurityModel/OshaFacilityInfo.aspx?GlobalLevelPage=1"
+                          },
+                          {
+                              "_Text": "Reports",
+                              "Group": {
+                                  "@Flow": "Vertical",
+                                  "Item": [
+                                      {
+                                          "_Text": "Incident Count Report",
+                                          "_Href": "../Reports/IncidentCountReport/IncidentCountReport.aspx"
+                                      },
+                                      {
+                                          "_Text": "Incident Report By Type",
+                                          "_Href": "../Reports/IncidentReportByType/IncidentReportByType.aspx?Suite=EHS"
+                                      },
+                                      {
+                                          "_Text": "OSHA 300 & 300A",
+                                          "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Osha 360&gotourl=../Osha/Reports/Osha360Filter.aspx"
+                                      },
+                                      {
+                                          "_Text": "OSHA 301",
+                                          "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Osha 301&gotourl=../Osha/OSHA301/OSHA301.aspx"
+                                      },
+                                      {
+                                          "_Text": "OSHA Trending Report",
+                                          "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Dashboard Reports&gotourl=../Osha/Reports/OSHADashboardReport.aspx"
+                                      },
+                                      {
+                                          "_Text": "OSHA Corporate Report",
+                                          "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=OSHAMonthToDate Reports&gotourl=../Reports/EHS/EHSYTDReport.aspx"
+                                      }
+                                  ]
+                              }
+                          },
+                          {
+                              "_Text": "Field  Mapping",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Incident Management&gotourl=../Fields Mapping/IncidentManagementFieldsMapping.aspx?MouduleType=IncidentManagement&Suite=EHS"
+                          },
+                          {
+                              "_Text": "Rebuild Reporting Table",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Rebuild Reporting Table&gotourl=../DynamicReoprts/RebuildReportingTable.aspx?MouduleType=IncidentManagement&Suite=EHS"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Compliance Management",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Custom Compliance Forms",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Operations&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Compliance Management"
+                          },
+                          {
+                              "_Text": "Manage Upload Documents",
+                              "_Href": "../ManageDocuments/DocumentList.aspx?CalledFrom=EHS"
+                          },
+                          {
+                              "_Text": "Manage Upload Document Categories",
+                              "_Href": "../ManageDocuments/ManageUploadDocumentCategories.aspx?CalledFrom=EHS"
+                          },
+                          {
+                              "_Text": "Reports",
+                              "Group": {
+                                  "@Flow": "Vertical",
+                                  "Item": [
+                                      {
+                                          "_Text": "Upload Document List Report",
+                                          "_Href": "../ManageDocuments/UploadDocumentsListReport.aspx?CalledFrom=MyHomePage"
+                                      },
+                                      {
+                                          "_Text": "Upload Document Coming Due",
+                                          "_Href": "../ManageDocuments/UploadDocumentsListReport.aspx?CalledFrom=MyHomePage&ReportName=ComingDuePastDue"
+                                      }
+                                  ]
+                              }
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Safety Observations",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Manage Observation Sections and Topics",
+                              "_Href": "../Observation/ManageSectionsAndTopics.aspx?CalledFrom=MyHomePage&ObservationSettingGuid=87edf6cb-6dd2-426b-bb10-7cdb530c16b0"
+                          },
+                          {
+                              "_Text": "Reports",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Observation Report&gotourl=../Reports/ObservationReport/ObservationCountReport.aspx?Suite=EHS"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "EHS Task Management",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Corrective Action Settings",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Define Corrective Action Due Dates based on Severity Rate&gotourl=../SeverityRate/RiskDaysDue.aspx?Suite=EHS"
+                          },
+                          {
+                              "_Text": "Reports",
+                              "Group": {
+                                  "@Flow": "Vertical",
+                                  "Item": [
+                                      {
+                                          "_Text": "EHS Task Report",
+                                          "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=EHSTask Reports&gotourl=../Reports/EHS/EHSTaskReport/EHSTaskReportParams.aspx?Suite=EHS"
+                                      },
+                                      {
+                                          "_Text": "EHS Task Percent Complete Report",
+                                          "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=TaskPercentComplete Report&gotourl=../Reports/TaskPercentComplete/TaskPercentComplete.aspx?Suite=EHS"
+                                      }
+                                  ]
+                              }
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Risk Management",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Manage JHA",
+                              "_Href": "../JHA/History.aspx"
+                          },
+                          {
+                              "_Text": "Reports",
+                              "Group": {
+                                  "@Flow": "Vertical",
+                                  "Item": [
+                                      {
+                                          "_Text": "JHA Report",
+                                          "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=JHA Report&gotourl=../Reports/JHA/JHAReport.aspx?Suite=EHS"
+                                      },
+                                      {
+                                          "_Text": "JHA Review Coming Due",
+                                          "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=JHA Review Coming Due&gotourl=../Reports/JHA/JHAReviewComingDue.aspx?Suite=EHS"
+                                      }
+                                  ]
+                              }
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Workflows",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Workflow&gotourl=../Workflow/Workflow.aspx?Suite=EHS"
+              },
+              {
+                  "_Text": "Notifications",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Notification Pattern",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Notification Patterns&gotourl=../Notification/NotificationPatterns.aspx?Suite=EHS"
+                          },
+                          {
+                              "_Text": "Notification History",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Notification History&gotourl=../Notification/NotificationHistory.aspx?Suite=EHS"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Dashboard",
+                  "_Href": "../Dashboard/ManageDashboard.aspx?Suite=EHS"
+              },
+              {
+                  "_Text": "Schedule",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Schedule&gotourl=../Schedular/CreateJob.aspx?Suite=EHS"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Quality Suite",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Quality Objectives & Targets",
+                  "@href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Onboarding&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Quality Objectives And Targets"
+              },
+              {
+                  "_Text": "Quality Policy",
+                  "@href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=PerformanceManagement&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Quality Policy"
+              },
+              {
+                  "_Text": "Product Defect Tracking",
+                  "@href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Onboarding&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Product Defect Tracking"
+              },
+              {
+                  "_Text": "Supplier Management",
+                  "@href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=PerformanceManagement&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Supplier Management"
+              },
+              {
+                  "_Text": "Customer Management",
+                  "@href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Onboarding&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Customer Management"
+              },
+              {
+                  "_Text": "Audit & Inspection",
+                  "@href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=PerformanceManagement&gotourl=../AuditAndInspection/AuditAndInspectionChecklist.aspx?Suite=Quality"
+              },
+              {
+                  "_Text": "Workflows",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Workflow&gotourl=../Workflow/Workflow.aspx?Suite=Quality"
+              },
+              {
+                  "_Text": "Quality Task Report",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=EHSTask Reports&gotourl=../Reports/EHS/EHSTaskReport/EHSTaskReportParams.aspx?Suite=Quality"
+              },
+              {
+                  "_Text": "Quality Task Percent Complete Report",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=TaskPercentComplete Report&gotourl=../Reports/TaskPercentComplete/TaskPercentComplete.aspx?Suite=Quality"
+              },
+              {
+                  "_Text": "Notifications",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Notification Pattern",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Notification Patterns&gotourl=../Notification/NotificationPatterns.aspx?Suite=Quality"
+                          },
+                          {
+                              "_Text": "Notification History",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Notification History&gotourl=../Notification/NotificationHistory.aspx?Suite=Quality"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Dashboard",
+                  "_Href": "../Dashboard/ManageDashboard.aspx?Suite=Quality"
+              },
+              {
+                  "_Text": "Schedule",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Schedule&gotourl=../Schedular/CreateJob.aspx?Suite=Quality"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "HR Suite",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Onboarding",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Onboarding&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Onboarding"
+              },
+              {
+                  "_Text": "Performance Management",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=PerformanceManagement&gotourl=../CustomForm/CustomForm.aspx?customformcategory=Performance Management"
+              },
+              {
+                  "_Text": "Competency Mgmt",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Competency Model",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Competencies&gotourl=../Competencies/Competency.aspx"
+                          },
+                          {
+                              "_Text": "Tasks",
+                              "_Href": "../Competencies/Attributes.aspx?GlobalLevelPage=1"
+                          },
+                          {
+                              "_Text": "Competency Assessment Results",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=CompetencieResult&gotourl=../Competencies/CompetencyResults.aspx"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "OJT Mgmt",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "OJT Model",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=OJT&gotourl=../OJT/OJT.aspx"
+                          },
+                          {
+                              "_Text": "Tasks",
+                              "_Href": "../Competencies/Attributes.aspx?GlobalLevelPage=1"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Workflows",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Workflow&gotourl=../Workflow/Workflow.aspx?Suite=HR"
+              },
+              {
+                  "_Text": "HR Task Report",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=EHSTask Reports&gotourl=../Reports/EHS/EHSTaskReport/EHSTaskReportParams.aspx?Suite=HR"
+              },
+              {
+                  "_Text": "HR Task Percent Complete Report",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=TaskPercentComplete Report&gotourl=../Reports/TaskPercentComplete/TaskPercentComplete.aspx?Suite=HR"
+              },
+              {
+                  "_Text": "Notifications",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Notification Pattern",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Notification Patterns&gotourl=../Notification/NotificationPatterns.aspx?Suite=HR"
+                          },
+                          {
+                              "_Text": "Notification History",
+                              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Notification History&gotourl=../Notification/NotificationHistory.aspx?Suite=HR"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Dashboard",
+                  "_Href": "../Dashboard/ManageDashboard.aspx?Suite=HR"
+              },
+              {
+                  "_Text": "Schedule",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Schedule&gotourl=../Schedular/CreateJob.aspx?Suite=HR"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Curriculum",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Training Items",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Training Items&gotourl=../TrainingItems/TrainingItem.aspx"
+              },
+              {
+                  "_Text": "Learning Plans",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Learning Plans&gotourl=../LearningPlans/LearningPlan.aspx?PlanType=Learning"
+              },
+              {
+                  "_Text": "Roles",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Job Roles&gotourl=../JobRoles/JobRole.aspx"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Events",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Events",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Events&gotourl=../ILT/ILT.aspx"
+              },
+              {
+                  "_Text": "Resources",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Resource&gotourl=../ILT/Resource.aspx"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Compliance",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": {
+              "_Text": "Compliance Plans",
+              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Compliance Plans&gotourl=../LearningPlans/LearningPlan.aspx?PlanType=Compliance"
+          }
+      },
+      "Item": [
+          {
+              "_Text": "Compliance Plans",
+              "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Compliance Plans&gotourl=../LearningPlans/LearningPlan.aspx?PlanType=Compliance"
+          }
+      ]
+  },
+  {
+      "_Text": "Certifications",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Certification Plans",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Certification Plans&gotourl=../LearningPlans/LearningPlan.aspx?PlanType=Certification"
+              },
+              {
+                  "_Text": "Electives Strategy",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Define Electives Strategy&gotourl=../LearningPlans/Electives.aspx"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "N.E.O.",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "N.E.O. Plans",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=N.E.O. Plans&gotourl=../LearningPlans/LearningPlan.aspx?PlanType=N.E.O."
+              },
+              {
+                  "_Text": "Exclude learners - NEO",
+                  "_Href": "../TrainingItems/ExcludeLearners.aspx"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Safety Mtng",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Safety Meeting",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=safetymeeting&Option=Safety Meeting&gotourl=../SafetyMeeting/SafetyMeeting.aspx"
+              },
+              {
+                  "_Text": "Safety Meeting History",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=safetymeeting&Option=Safety Meeting History&gotourl=../Reports/NonTemplateBased/SafetyMeetingHistory.aspx"
+              },
+              {
+                  "_Text": "Safety Meeting Attendance",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=safetymeeting&Option=Safety Meeting Attendance&gotourl=../Reports/NonTemplateBased/SafetyMeetingAttendance.aspx"
+              },
+              {
+                  "_Text": "Safety Meeting Exception",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=safetymeeting&Option=Safety Meeting Exception&gotourl=../Reports/NonTemplateBased/SafetyMeetingException.aspx"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Knowledge Mgmt",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Content with Knowledge Assessment",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=author&Option=Content&gotourl=../LearningContainers/LearningContainer.aspx?Type=Subject"
+              },
+              {
+                  "_Text": "Shared Content with Knowledge Assessment",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=author&Option=Content&gotourl=../LearningContainers/LearningContainer.aspx?Type=Subject**IsShared=1"
+              },
+              {
+                  "_Text": "Content with Evaluation",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=author&Option=Content&gotourl=../LearningContainers/LearningContainer.aspx?Type=Course"
+              },
+              {
+                  "_Text": "Shared Content with Evaluation",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=author&Option=Content&gotourl=../LearningContainers/LearningContainer.aspx?Type=Course**IsShared=1"
+              },
+              {
+                  "_Text": "Independent Evaluation",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=author&Option=Independent Evaluation&gotourl=../LearningContainers/LearningContainer.aspx?ThirdPartyEvaluation=1"
+              },
+              {
+                  "_Text": "Shared Independent Evaluation",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=author&Option=Independent Evaluation&gotourl=../LearningContainers/LearningContainer.aspx?ThirdPartyEvaluation=1**IsShared=1"
+              },
+              {
+                  "_Text": "Independent Acknowledgement",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=author&Option=Independent Acknowledgement&gotourl=../LearningContainers/LearningContainer.aspx?IndependentAcknowledgement=1"
+              },
+              {
+                  "_Text": "Shared Independent Acknowledgement",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=author&Option=Independent Acknowledgement&gotourl=../LearningContainers/LearningContainer.aspx?IndependentAcknowledgement=1**IsShared=1"
+              },
+              {
+                  "_Text": "Unlock Course",
+                  "_Href": "../Reports/NonTemplateBased/UnlockCourse_AuthoringToolOnly.aspx?WhichCatalog=Company"
+              },
+              {
+                  "_Text": "Unlock Course - WBW",
+                  "_Href": "../Reports/NonTemplateBased/UnlockCourse_AuthoringToolOnly.aspx?WhichCatalog=wbw"
+              },
+              {
+                  "_Text": "Custom Sets",
+                  "_Href": "../LearningContainers/CustomSets.aspx?GlobalLevelPage=1"
+              },
+              {
+                  "_Text": "How To Procedures",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Add Objective",
+                              "_Href": "../Help/Author/How-To-Task_Add an objective.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Add Assessment Question",
+                              "_Href": "../Help/Author/How-To-Task_Add an assessment question.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Add Variation Questions",
+                              "_Href": "../Help/Author/How-To-Task_Add a variation question.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Add Content Page",
+                              "_Href": "../Help/Author/How-To-Task_Add a content page.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Add Content Page Details",
+                              "_Href": "../Help/Author/How-To-Task_Content page details.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Add Review Question",
+                              "_Href": "../Help/Author/How-To-Task_Add a review question.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Edit Objective",
+                              "_Href": "../Help/Author/How-To-Task_Edit an objective.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Edit Assessment Question",
+                              "_Href": "../Help/Author/How-To-Task_Edit an assessment question.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Edit Variation Questions",
+                              "_Href": "../Help/Author/How-To-Task_Edit a variation question.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Edit Content Page",
+                              "_Href": "../Help/Author/How-To-Task_Edit a content page.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Edit Content Page Details",
+                              "_Href": "../Help/Author/How-To-Task_Content page details.pdf",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Edit Review Question",
+                              "_Href": "../Help/Author/How-To-Task_Edit a review question.pdf",
+                              "@target": "blank_"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Tutorials",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": [
+                          {
+                              "_Text": "Create Course with Evaluation",
+                              "_Href": "../Help/Author/Tutorial - Create a Course with an Evaluation.html",
+                              "@target": "blank_"
+                          },
+                          {
+                              "_Text": "Create Course with Knowledge Assessment and Evaluation",
+                              "_Href": "../Help/Author/Tutorial - Create a Course with an Knowledge Assessment and Evaluation.html",
+                              "@target": "blank_"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "_Text": "Glossary",
+                  "Group": {
+                      "@Flow": "Vertical",
+                      "Item": {
+                          "_Text": "Course Builder Glossary",
+                          "_Href": "../Help/Author/Glossary.html",
+                          "@target": "blank_"
+                      }
+                  }
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Notifications",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Notification Strategy",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Notification Patterns&gotourl=../AdminTask/NotificationPatterns.aspx?OverrideIntermediateFilter=1"
+              },
+              {
+                  "_Text": "Notification History",
+                  "_Href": "../SecurityModel/SelectLevel.aspx?Type=admin&Option=Notification History&gotourl=../Reports/NonTemplateBased/NotificationHistory.aspx?CalledFrom=admin"
+              }
+          ]
+      }
+  },
+  {
+      "_Text": "Reports",
+      "Group": {
+          "@Flow": "Vertical",
+          "Item": [
+              {
+                  "_Text": "Registrar",
+                  "_Href": "../Reports/ListReportsBasedOnMenu.aspx?Menu=Registrar"
+              },
+              {
+                  "_Text": "Curriculum",
+                  "_Href": "../Reports/ListReportsBasedOnMenu.aspx?Menu=Curriculum"
+              },
+              {
+                  "_Text": "Events",
+                  "_Href": "../Reports/ListReportsBasedOnMenu.aspx?Menu=Event"
+              },
+              {
+                  "_Text": "Compliance",
+                  "_Href": "../Reports/ListReportsBasedOnMenu.aspx?Menu=Compliance"
+              },
+              {
+                  "_Text": "Certifications",
+                  "_Href": "../Reports/ListReportsBasedOnMenu.aspx?Menu=Certification"
+              },
+              {
+                  "_Text": "N.E.O.",
+                  "_Href": "../Reports/ListReportsBasedOnMenu.aspx?Menu=NEO"
+              },
+              {
+                  "_Text": "User List",
+                  "_Href": "../Reports/UserList.aspx"
+              }
+          ]
+      }
+  }
+];
+
+
+
+
