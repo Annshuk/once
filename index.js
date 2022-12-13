@@ -1,8 +1,6 @@
 // Import stylesheets
 import './style.css';
 
-const sum = (a, b) => a + b;
-
 const once = (fn) => {
   let result;
 
@@ -16,6 +14,7 @@ const once = (fn) => {
   };
 };
 
+const sum = (a, b) => a + b;
 const sumNumber = once(sum);
 
 console.log(sumNumber(2, 8)); //10;
